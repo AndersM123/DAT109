@@ -10,7 +10,7 @@ public class BilutleieSelskap {
 
 	
 	public void StartUtleie() {
-		
+		String test = "test";
 	}
 	
 }
