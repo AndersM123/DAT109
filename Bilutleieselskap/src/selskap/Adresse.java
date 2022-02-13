@@ -6,16 +6,29 @@ public class Adresse {
 	private String KontorAdresse;
 	private String KundeAdresse;
 	
-	public void FirmaAdresse(String FirmaAdresse) {
-		this.FirmaAdresse=FirmaAdresse;
-	}
 	
-	public void KontorAdresse(String KontorAdresse) {
-		this.KontorAdresse=KontorAdresse;
+	public String getFirmaAdresse() {
+		return FirmaAdresse;
 	}
-	
-	public void KundeAdresse(String KundeAdresse) {
-		this.KundeAdresse=KundeAdresse;
+
+	public void setFirmaAdresse(String firmaAdresse) {
+		FirmaAdresse = firmaAdresse;
+	}
+
+	public String getKontorAdresse() {
+		return KontorAdresse;
+	}
+
+	public void setKontorAdresse(String kontorAdresse) {
+		KontorAdresse = kontorAdresse;
+	}
+
+	public String getKundeAdresse() {
+		return KundeAdresse;
+	}
+
+	public void setKundeAdresse(String kundeAdresse) {
+		KundeAdresse = kundeAdresse;
 	}
 	
 	
