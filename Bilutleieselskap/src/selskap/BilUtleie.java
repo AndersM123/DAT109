@@ -2,7 +2,7 @@ package selskap;
 
 import java.util.Date;
 
-public class Utleie {
+public class BilUtleie {
 
 	String Utleiested;
 	Date dato;

@@ -2,15 +2,16 @@ package selskap;
 
 public class BilutleieSelskap {
 
-	String navn;
-	int telefonNr;
-	String gateadresse;
-	int postNr;
-	String poststed;
-
+	private String navn;
+	private int telefonNr;
+	private Utleiekontor kontor;
+	private Adresse adresse;
+	private Bil bil;
+	private BilUtleie utleie;
 	
-	public void StartUtleie() {
-		String test = "test";
-	}
+	
+	
+	
+
 	
 }
