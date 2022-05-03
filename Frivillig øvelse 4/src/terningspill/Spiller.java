@@ -10,8 +10,12 @@ public class Spiller {
 		this.navn=navn;
 	}
 	
-	public Spiller(Kopp kopp) {
+	public void Spill(Kopp kopp) {
 		kopp.trill();
+		verdi = kopp.getSum();
 	}
 	
+	public String getNavn() {
+		return navn;
+	}
 }

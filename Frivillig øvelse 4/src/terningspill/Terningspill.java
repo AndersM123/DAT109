@@ -6,14 +6,18 @@ import java.util.List;
 public class Terningspill {
 
 	private int id;
-	List<Spiller> spillere = new ArrayList<>();
+	private Spiller spiller;
+	private Kopp kopp;
+	private List<Spiller> spillere = new ArrayList<>();
 	
 	public void leggTilSpiller(Spiller navn) {
 		spillere.add(navn);
 	}
 	
-	public void spill() {
-		
+	public void lagSpill() {
+		for(Spiller s : spillere) {
+			s.Spill(kopp);
+		}
 	}
 	
 	
